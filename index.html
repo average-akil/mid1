@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style></style>
@@ -255,13 +262,67 @@
         </div>
       </section>
       <!-- 2nd last part -->
-       <section>
-        <div>
-            <h1>Phasellus a vitae <br>iaculis magna.</h1>
-            <p>Phasellus a vitae iaculis magna.</p>
-        </div>    
-    </section>
-
+      <section class="bg-gray-900">
+        <div
+          class="text-center flex flex-col justify-center items-center pt-12"
+        >
+          <h1 class="text-white text-2xl font-bold max-w-1/2">
+            Phasellus a vitae <br />iaculis magna.
+          </h1>
+          <p class="text-white max-w-1/2">
+            Phasellus a vitae iaculis magna Eleifen <br />
+            pilvinar velit odio.
+          </p>
+        </div>
+        <div
+          class="bg-white flex justify-center items-center flex-col max-w-[70%]"
+        >
+          <div class="flex justify-between">
+            <h1
+              class="text-black text-2xl font-bold max-w-[50%] text-left pl-20"
+            >
+              Quam vehicula faucibus amet lorem.
+            </h1>
+            <div class="pt-4">
+              <svg
+                width="23"
+                height="4"
+                viewBox="0 0 23 4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.5213 3.87842H0.0715332V0.714355H22.5213V3.87842Z"
+                  fill="#F9B800"
+                />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <p class="text-left max-w-[350px]">
+              Euismod magna id purus eget nunc ligula suspendisse dui netus.
+              Condimentum blandit rutrum at mauris enim pulvinar duis etiam
+              duis. Mauris fermentum praesent tellus euismod.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="bg-amber-100 flex flex-col justify-center items-center py-12">
+      <h1 class="text-black font-bold max-w-[25%] text-2xl">
+        Vulputate et pulvinar ethre Suspendisse tellus consecteur
+      </h1>
+      <div
+        class="flex gap-4 justify-center items-center bg-amber-400 h-12 w-40 rounded-2xl mt-4 text-black font-bold"
+      >
+        <p>Lorem Ipsum</p>
+        <i class="fa-solid fa-arrow-right pl-4"></i>
+      </div>
+      <div class=" text-gray-900 pt-12 max-w-64">
+        <p>
+          Copyright © 2022 Lorem Ipsum.
+          Privacy Policy | Terms & Conditions</p>
+      </div>
+    </footer>
   </body>
 </html>
